@@ -4,7 +4,7 @@
 		$enviar='';
 		$enviado='';
 
-		$conexion = new PDO('mysql:host=localhost;dbname=restaurant', 'root','chavalote');
+		$conexion = new PDO('mysql:host=localhost;dbname=restaurant', 'root','');
 		if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$nombreusuario = $_POST['nombreusuario'];
 			$password = $_POST['password'];

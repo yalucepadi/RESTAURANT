@@ -21,6 +21,7 @@ if (!isset($_SESSION['nombreusuario'])) {
 
 	$index = new MvcController();
 	$index->plantilla();
+	//phpinfo();
 }
 
 
