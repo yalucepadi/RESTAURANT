@@ -1,10 +1,24 @@
 
  <div class="container" style="background-color: #fff; border-radius: 5px; padding: 7px; margin-top:20px; width: 1140px; margin-left: 8.3%;">
+ <style>
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  padding:10px;
+}
+</style>
+
 
 <footer>
-	<center>
-		<small><i>Copyright (c) Diego Pennisi <?php echo date('Y'); ?> <a href="http://seecorpdesarrollos.esy.es/" target="_blanck"> SeecorpDesarrollos.</a></i></small>
-	</center>
+	<div>
+		<small><i> <?php echo date('Y'); ?> - Desarrollado con fines académicos</a></i></small>
+	</div>
 </footer>
 </div>
 

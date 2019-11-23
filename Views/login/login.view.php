@@ -13,7 +13,7 @@
 <div class="row">
 	<div class="col-md-12">
     <div class="conta">
-       <h1>Restaurant&nbsp;&nbsp;&nbsp;<i class="fa fa-cutlery"></i> ToRest</h1>
+       <h1>Restaurante El Cajamarquino</h1>
 		<form class="" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 		<hr>
 	  <div class="form-group">
@@ -21,8 +21,8 @@
 		<input type="text" name="nombreusuario" class="form-control" placeholder="Nombre Usuario ">
 	  </div>
 	  <div class="form-group">
-	      <i class="fa fa-unlock-alt"></i> <label for="password"><b> Contraseña del  Usuario</b></label> 
-		<input type="password" name="password" class="form-control" placeholder="Contraseña Usuario">
+	      <i class="fa fa-unlock-alt"></i> <label for="password"><b> Contraseña</b></label> 
+		<input type="password" name="password" class="form-control" placeholder="Contraseña">
 	  </div><br>
 
 

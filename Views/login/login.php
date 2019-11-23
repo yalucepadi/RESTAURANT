@@ -4,7 +4,7 @@
 		$enviar='';
 		$enviado='';
 
-		$conexion = new PDO('mysql:host=localhost;dbname=restaurant', 'root','');
+		$conexion = new PDO('mysql:host=localhost;dbname=restaurant', 'root','');//aqui tambien
 		if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$nombreusuario = $_POST['nombreusuario'];
 			$password = $_POST['password'];
@@ -22,13 +22,13 @@
 	                  <span class="">Accediendo Al Sistema...</span></center><br>';
 	   
    } else {
-   $error .= '<li class="alert alert-danger"> Los Datos ingresados son Incorrecto </li>';
+   $error .= '<li class="alert alert-danger"> Revisa los datos ingresados </li>';
    
 }
 
 		}
 	} catch (Exception $e) {
-		echo "Error  de conexion ala base de datos.";
+		echo "Problemas con la conexión a la base de datos.";
 	}
 
 

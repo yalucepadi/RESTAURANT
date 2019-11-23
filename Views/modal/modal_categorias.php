@@ -14,7 +14,7 @@
           <div class="row">
             <div class="col-md-12">  
               <div class="form-group">
-               <center> <label for="categoria-name" class="form-control-label">Nombre Categoria :</center></label>
+               <span style="display:flex; justify-content:center;"> <label for="categoria-name" class="form-control-label">Nombre Categoria :</label></span>
        
                 <input type="text" class="form-control" id="categoria-name" name="nombrecategoria" required="">
               </div>
@@ -23,7 +23,7 @@
           </div>
          
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
           <button type="submit" class="btn btn-primary" name="agregarCategorias">Agregar Categoria</button>
           </form>
         </div>

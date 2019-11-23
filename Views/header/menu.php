@@ -38,7 +38,7 @@
       <li class="nav-item dropdown nav-item active">
         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-product-hunt" aria-hidden="true"></i> Productos</a>
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
-          <a id="sub" class="dropdown-item" href="listadoProd"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Listado Productos</a>
+          <a id="sub" class="dropdown-item" href="listadoProd"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Lista de Productos</a>
         
         </div>
       </li>
@@ -46,7 +46,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-universal-access" aria-hidden="true"></i> Categorías</a>
 
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
-          <a id="sub" class="dropdown-item" href="categorias"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Listado Categorias</a>
+          <a id="sub" class="dropdown-item" href="categorias"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Categorias</a>
         
         </div>
       </li> 
@@ -55,8 +55,8 @@
         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-usd" aria-hidden="true"></i> Ventas</a>
 
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
-          <a id="sub" class="dropdown-item" href="principalVentas"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Listado Mesas</a>
-          <a id="sub" class="dropdown-item" href="ventasDiarias"><i class="btn btn-danger btn-sm  fa fa-usd"></i>Reportes Ventas</a>
+          <a id="sub" class="dropdown-item" href="principalVentas"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Mesas</a>
+          <a id="sub" class="dropdown-item" href="ventasDiarias"><i class="btn btn-danger btn-sm  fa fa-usd"></i>Reporte de Ventas</a>
         
         </div>
       </li> 
@@ -87,7 +87,7 @@
       <li class="nav-item dropdown nav-item active">
         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-product-hunt" aria-hidden="true"></i> Productos</a>
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
-          <a id="sub" class="dropdown-item" href="listadoProd"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Listado Productos</a>
+          <a id="sub" class="dropdown-item" href="listadoProd"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Lista de Productos</a>
         
         </div>
       </li>
@@ -95,7 +95,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-universal-access" aria-hidden="true"></i> Categorías</a>
 
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
-          <a id="sub" class="dropdown-item" href="categorias"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Listado Categorias</a>
+          <a id="sub" class="dropdown-item" href="categorias"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Categorias</a>
         
         </div>
       </li> 
@@ -104,7 +104,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-usd" aria-hidden="true"></i> Ventas</a>
 
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
-          <a id="sub" class="dropdown-item" href="principalVentas"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Listado Mesas</a>
+          <a id="sub" class="dropdown-item" href="principalVentas"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Mesas</a>
           <a id="sub" class="dropdown-item" href="ventasDiarias"><i class="btn btn-danger btn-sm  fa fa-usd"></i>Ventas Diarias</a>
         
         </div>
