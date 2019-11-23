@@ -57,9 +57,9 @@
             <?php endforeach ?>
         </div>
        
-         <CENTER>
-            <button type="submit" class="btn btn-primary" name="editarProductos">Agregar Productos</button>
-         </CENTER>
+         <div style="text-align:center">
+            <button type="submit" class="btn btn-primary" name="editarProductos">Aceptar</button>
+         </div>
          <br>
        </form>
  <?php endforeach ?>

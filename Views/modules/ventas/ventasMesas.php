@@ -53,8 +53,8 @@ if (isset($_POST['venta'])) {
 
 <div class="container" style="overflow: auto; width: 720px; height: 400px;">
 
-	<center><h1><i class="fa fa-table" aria-hidden="true"> </i> <?php echo $tabla; ?></h1>
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bebidas" data-whatever="@mdo"><i class="fa fa-plus-square"> </i> ADICIONAR PEDIDOS </button></center>
+	<div style="text-align:center"><h1><i class="fa fa-table" aria-hidden="true"> </i> <?php echo $tabla; ?></h1>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bebidas" data-whatever="@mdo"><i class="fa fa-plus-square"> </i> ADICIONAR PEDIDOS </button></div>
 	
   <?php require 'Views/modal/modal_agregar_productos.php'; ?>
 

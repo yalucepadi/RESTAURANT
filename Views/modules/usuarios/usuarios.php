@@ -10,7 +10,7 @@ if (isset($_GET['action'])) {
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong>El Usuario fue Agregado Satifactoriamente al sistema.
+            <strong>El usuario fue agregado al sistema </strong>
           </div>
         </center>';
  	}
@@ -20,7 +20,7 @@ if (isset($_GET['action'])) {
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong>El Usuario fue Borrado Satifactoriamente al sistema.
+            <strong>El usuario fue removido del sistema! </strong>
           </div>
         </center>';
  	}
@@ -30,7 +30,7 @@ if (isset($_GET['action'])) {
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong>El Usuario fue Editado Satifactoriamente al sistema.
+            <strong>Información del usuario actualizada! </strong>
           </div>
         </center>';
  	}

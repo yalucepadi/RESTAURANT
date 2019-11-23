@@ -28,8 +28,8 @@ class CategoriasController {
 
        foreach ($respuesta as $row) {
          echo '<tr> 
-              <td align="center"> '. $row['nombrecategoria'].'</td>
-              <td align="center"><a href="index.php?action=editarcategoria&idcategoria='.$row['idcategoria'].'" <i class="fa fa-edit btn btn-primary btn-sm"></i> </a>
+              <td style="text-align:center"> '. $row['nombrecategoria'].'</td>
+              <td style="text-align:center"><a href="index.php?action=editarcategoria&idcategoria='.$row['idcategoria'].'" <i class="fa fa-edit btn btn-primary btn-sm"></i> </a>
                <a class="fa fa-trash btn btn-danger  btn-sm" href="index.php?action=categorias&idBorrar='.$row['idcategoria'].'" &nbsp;  </a>
               </td>
               </tr>';
@@ -42,11 +42,11 @@ class CategoriasController {
 
   echo'  <div class="col-md-8">  
               <div class="form-group">
-              <label for="categoria-name" class="form-control-label">Nombre Categoria :</label>
+              <label for="categoria-name" class="form-control-label">Categoria :</label>
                 <input type="text" class="form-control" id="categoria-name" name="nombrecategoria" value="'.$respuesta['nombrecategoria'].' ">
               </div>       
         <input type="hidden" name="idcategoria" value="'.$respuesta['idcategoria'].'">
-          <button type="submit" class="btn btn-primary" name="editarCategorias">Editar la  Categoria</button>
+          <button type="submit" class="btn btn-primary" name="editarCategorias">Editar la categoría</button>
           </div>
    <div class="col-md-4">
      <img src="assets/img/foto3.jpg" width="350" height="285"">

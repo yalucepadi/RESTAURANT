@@ -1,5 +1,4 @@
-
- <div class="container" style="background-color: #fff; border-radius: 5px; padding: 7px; margin-top:20px; width: 1140px; margin-left: 8.3%;">
+<!-- Desarrollamos los estilos dentro de esta pagina para aprovechar al maximo el potencial de PHP, muy parecido al patron MVVM de VUEjs -->
  <style>
 footer {
   position: fixed;
@@ -16,15 +15,12 @@ footer {
 
 
 <footer>
-	<div>
-		<small><i> <?php echo date('Y'); ?> - Desarrollado con fines académicos</a></i></small>
-	</div>
+		<div><i>Elaborado por Gabriel Quispe Rosas <?php echo date('Y'); ?> - Desarrollado con fines académicos</a></i></div>
 </footer>
-</div>
 
 	<script src="assets/js/script.js"></script>
 
-<script>
+<!-- <script>
  
 $('.mi').on('click',function(){
 	$('.su').toggle('slow');
@@ -35,7 +31,7 @@ $('.mitooltip').tooltip();
   
   });
 
-</script>
+</script> -->
   
  
 </body>

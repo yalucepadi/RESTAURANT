@@ -8,7 +8,7 @@
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong> La Categoria de un  Producto fue agragada Satifactoriamente al sistema.
+            <strong>La categoria fue agregada con éxito!</strong>
           </div>
         </center>';
  	}
@@ -20,7 +20,7 @@
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong> La Categoria de un  Producto fue Borrada Satifactoriamente al sistema.
+            <strong>La categoría fue borrada del sistema!.</strong>
           </div>
         </center>';
  	}
@@ -31,7 +31,7 @@ if (isset($_GET['action'])) {
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong> La Categoria de un  Producto fue Editada Satifactoriamente al sistema.
+            <strong>La categoría fue editada!</strong>
           </div>
         </center>';
   }
@@ -44,9 +44,9 @@ if (isset($_GET['action'])) {
  </ol>
 	</div>
 		<div class="col-lg-4">
-		  <div class="alert alert-success" role="alert">
+		  <div class="alert alert-warning" role="alert">
 		  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#categorias" data-whatever="@mdo">
-		<i class="fa fa-plus"> </i> Registrar Nuevas Categorias
+		<i class="fa fa-plus"> </i> Registrar nuevas categorías
 		  </button>
 		</div>
    	  </div> 
@@ -55,8 +55,8 @@ if (isset($_GET['action'])) {
 	 <table class="table table-bordered table-hover dt-responsive" id="tablaProductos" >
 	 	<thead class="bg-primary">
 	 		<tr>
-	 			<td class="td" align="center">NOMBRE CATEGORIA</td>
-	 			<td class="td" align="center">ACCIONES</td>
+	 			<td class="td" style="text-align:center;">NOMBRE CATEGORIA</td>
+	 			<td class="td" style="text-align:center;">ACCIONES</td>
 	 		</tr>
 	 	</thead>
      <?php 
@@ -70,7 +70,7 @@ if (isset($_GET['action'])) {
    <br>
     </div>
     	<div class="col-md-3 text-center">
-    	  <img src="assets/img/foto1.jpg" width="350" height="285">
+    	  <img src="assets/img/foto4.jpg" width="350" height="285">
     	</div>
 
   </div>

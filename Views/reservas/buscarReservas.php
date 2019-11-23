@@ -13,10 +13,10 @@ require_once 'Views/modules/ventas/conexion.php';
 			                              ':nombrecliente'=>"%$buscar%"));
 		$resultado = $sql->fetchAll(PDO::FETCH_OBJ);
 	if (empty($resultado)) {
-		$titulo = 'No se encontraron Reservas El día  : '  .date("d-m-Y", strtotime($buscar));
+		$titulo = 'No se encontraron reservas para el día  : '  .date("d-m-Y", strtotime($buscar));
 		echo "<br><br><br><br>";
 	} else {
-		$titulo = 'La Reserva Buscada del Día : '  .date("d-m-Y", strtotime($buscar));
+		$titulo = 'La(s) reserva(s) encontradas del día : '  .date("d-m-Y", strtotime($buscar));
 	}
 	
 }
@@ -32,12 +32,12 @@ require_once 'Views/modules/ventas/conexion.php';
 <table class="table table-bordered">
 <thead class="thead">
 	<th>Nombre Cliente</th>
-	<th>Cantidad Comensales</th>
+	<th>Cantidad de personas</th>
 	<th>Teléfono</th>
 	<th>Dia Reserva</th>
-	<th>Hora Arrivo</th>
+	<th>Hora Deseada</th>
 	<th>Observaciones</th>
-	<th>Editar O  Borrar</th>
+	<th>Editar o Eliminar</th>
 </thead>
 <?php foreach($resultado as $resultados): ?>
 	

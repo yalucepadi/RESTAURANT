@@ -30,7 +30,7 @@
 </head>
 <body>
 <?php if ($_SESSION['nombreusuario'] == 'ADMINISTRADOR' OR $_SESSION['nombreusuario'] == 'administrador'): ?>
-<nav class="navbar navbar-dark bg-warning">
+<nav class="navbar navbar-light bg-dark">
   <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
   <div class="collapse navbar-toggleable-md" id="navbarResponsive">
     <a class="navbar-brand" href="index"><i class="fa fa-table" aria-hidden="true"></i> Reservas</a>
@@ -65,7 +65,7 @@
           <!-- User =====================================
           ============================================ -->
        <li class="nav-item dropdown  nav-item active float-xs-right">
-         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-windows" aria-hidden="true"></i> Hola! <?php echo  ' ' .strtoupper($_SESSION[ 'nombreusuario']); ?></a>
+         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido! <?php echo  ' ' .strtoupper($_SESSION[ 'nombreusuario']); ?></a>
          <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
           <a class="dropdown-item" href="salir"><i class="btn btn-danger btn-sm fa fa-window-close-o"> </i> Cerrar Sesión</a>
           <a class="dropdown-item" href="usuarios"><i class="btn btn-primary btn-sm fa fa-address-book"></i> Usuarios</a>
@@ -95,7 +95,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fa fa-universal-access" aria-hidden="true"></i> Categorías</a>
 
         <div class="dropdown-menu" id="sub" aria-labelledby="responsiveNavbarDropdown">
-          <a id="sub" class="dropdown-item" href="categorias"><i class="btn btn-primary btn-sm  fa fa-list-ol"></i> Categorias</a>
+          <a id="sub" class="dropdown-item" href="categorias"><i class="btn btn-secondary btn-sm  fa fa-list-ol"></i> Categorias</a>
         
         </div>
       </li> 

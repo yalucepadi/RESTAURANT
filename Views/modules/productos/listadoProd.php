@@ -6,7 +6,7 @@ if (isset($_GET['action'])) {
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong>El  Producto fue Agregado Satifactoriamente al sistema.
+            <strong>El producto fue agregado con éxito</strong>
           </div>
         </center>';
  	}
@@ -16,7 +16,7 @@ if (isset($_GET['action'])) {
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong>El  Producto fue Editado Satifactoriamente al sistema.
+            <strong>El producto fue editado en el sistema!.</strong>
           </div>
         </center>';
  	}
@@ -26,7 +26,7 @@ if (isset($_GET['action'])) {
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>Exitos!! </strong>El  Producto fue Borrado Satifactoriamente al sistema.
+            <strong>El producto ha sido eliminado!</strong>
           </div>
         </center>';
  	}
@@ -40,10 +40,10 @@ if (isset($_GET['action'])) {
  </ol>
 	</div>
 		<div class="col-md-4">
-		  <div class="alert alert-success" role="alert">
+		  <div class="alert alert-warning" role="alert">
 		  &nbsp;&nbsp;&nbsp;&nbsp;
 		  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productos" data-whatever="@mdo">
-		       <i class="fa fa-plus fa-spin"> </i> Registrar Productos Nuevos
+		       <i class="fa fa-plus fa-spin"> </i> Registrar nuevo producto
 		  </button>
 		</div>
 		   <?php require 'Views/modal/modal_productos.php'; ?>
@@ -52,10 +52,10 @@ if (isset($_GET['action'])) {
 	 <table class="table table-bordered table-hover dt-responsive" id="tablaProductos">
 	 	<thead class=" bg-danger">
 	 		<tr>
-	 			<td class="td" align="center">NOMBRE PRODUCTO</td>
-	 			<td class="td" align="center">CATEGORIA PRODUCTO</td>
-	 			<td class="td" align="center">PRECIO</td>
-	 			<td class="td" align="center">ACCIONES</td>
+	 			<td class="td" style="text-align:center">NOMBRE PRODUCTO</td>
+	 			<td class="td" style="text-align:center">CATEGORIA PRODUCTO</td>
+	 			<td class="td" style="text-align:center">PRECIO</td>
+	 			<td class="td" style="text-align:center">ACCIONES</td>
 	 		</tr>
 	 	</thead>
 

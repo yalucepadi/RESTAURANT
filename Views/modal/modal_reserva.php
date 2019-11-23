@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-6"> 
              <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Fecha Reserva (1/10/2017):</label>
+              <label for="recipient-name" class="form-control-label">Fecha Reserva:</label>
               <input type="date" class="form-control" id="recipient-name" name="diallegada" required="">
             </div>
             </div>
@@ -42,7 +42,7 @@
              <div class="row">
                 <div class="col-md-6"> 
              <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Hora de Reserva (22:00):</label>
+              <label for="recipient-name" class="form-control-label">Hora de Reserva:</label>
               <input type="text" class="form-control" id="recipient-name" name="horallegada" required="">
             </div>
             </div>

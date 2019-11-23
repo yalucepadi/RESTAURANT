@@ -8,10 +8,10 @@ class ProductosController {
 
        foreach ($respuesta as $row) {
          echo '<tr> 
-              <td align="center"> '. $row['nombreproducto'].'</td>
-              <td align="center"> '. $row['nombrecategoria'].'</td>
-              <td align="center"> '. $row['precio'].'</td>  
-              <td align="center"><a href="index.php?action=editarProductos&idproducto='.$row['idproducto'].'" <i class="fa fa-edit btn btn-primary btn-sm"></i> </a>
+              <td style="text-align:center"> '. $row['nombreproducto'].'</td>
+              <td style="text-align:center"> '. $row['nombrecategoria'].'</td>
+              <td style="text-align:center"> '. $row['precio'].'</td>  
+              <td style="text-align:center"><a href="index.php?action=editarProductos&idproducto='.$row['idproducto'].'" <i class="fa fa-edit btn btn-primary btn-sm"></i> </a>
                <a class="fa fa-trash btn btn-danger  btn-sm" href="index.php?action=listadoProd&idBorrar='.$row['idproducto'].'" &nbsp;  </a>
               </td>
               </tr>';

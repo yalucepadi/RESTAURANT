@@ -51,9 +51,9 @@
         </div>
 <br><br><br><br>
         <div class="col-lg-10">
-            <center>
+            <div style="text-align:center">
                 <input type="submit" name="reporteVenta" value="Consultar" class="btn btn-outline-primary" id="consulta">
-            </center>
+            </div>
         </div>
     </div>
 
@@ -68,45 +68,45 @@
   </div>
   
 </div>
-<center>
+<div style="text-align:center;">
     
 <?php  if ($fechaInicial > $fechaFinal) :
-      echo "<h3>Error En La selección de las Fechas</h3>";
+      echo "<h3>Error en la selección de fechas</h3>";
     ?>
     <br>
       
 <?php else : ?>
             <?php foreach ($respuesta as $key ): ?>
  <?php 
-  echo "<h3>El Rango de Busqueda es: " .$fechaInicial ." Hasta: " .$fechaFinal. '</h3>';
+  echo "<h3>El rango de busqueda es: " .$fechaInicial ." Hasta: " .$fechaFinal. '</h3>';
  
  ?> 
             <div class="col-md-6">
                <table class="table table-bordered">
                  <thead class="bg-danger">
                      <tr>
-                         <td class="td" align="center"> TOTAL DE VENTAS </td>
-                         <td class="td" align="center"> CANTIDAD DE PRODUCTOS  </td>
-                         <td class="td" align="center"> USUARIO DEL SISTEMA  </td>
+                         <td class="td" style="texte-align:center"> TOTAL DE VENTAS </td>
+                         <td class="td" style="texte-align:center"> CANTIDAD DE PRODUCTOS  </td>
+                         <td class="td" style="texte-align:center"> USUARIO DEL SISTEMA  </td>
                      </tr>
                  </thead>
                      
                     <tbody>
-                        <td class="reportes" align="center"><i class="fa fa-usd"> </i>
+                        <td class="reportes" style="texte-align:center"><i class="fa fa-usd"> </i>
                          <?php if($key['TOTAL'] == ''){
-                             echo "<h4> No se Encontraron Datos en Las Fechas Seleccionadas </h4>";
+                             echo "<h4> No se encontraron datos en las fechas seleccionadas </h4>";
                             }else{
                                  echo $key['TOTAL'] ;
                                 } ?> </td>
-                         <td class="reportes" align="center"><i class="fa fa-underline"> </i> <?php echo "  " . $key['PROD'] ?>  </td>
-                          <td class="reportes" align="center"> <?php echo "  " . $key['nombreusuario'] ?>  </td>
+                         <td class="reportes" style="texte-align:center"><i class="fa fa-underline"> </i> <?php echo "  " . $key['PROD'] ?>  </td>
+                          <td class="reportes" style="texte-align:center"> <?php echo "  " . $key['nombreusuario'] ?>  </td>
                     </tbody>
                    <button class="btn btn-info" onclick="print();">IMPRIMIR</button><br><br>
                  <?php endforeach ?>
              <?php endif ; ?>
                 </table>
            </div>
-</center>
+</div>
 </div>
 
 

@@ -14,10 +14,10 @@ echo $tabla;
 <div align="center">
     <table width="95%" border="1">
       <tr>
-        <td bgcolor="#0099FF"><strong>Nit</strong></td>
-        <td bgcolor="#0099FF"><strong>Nombre</strong></td>
-        <td bgcolor="#0099FF"><strong>Direccion</strong></td>
-        <td bgcolor="#0099FF"><strong>Correo</strong></td>
+        <td bgcolor="#0d68a0"><strong>Nit</strong></td>
+        <td bgcolor="#0d68a0"><strong>Nombre</strong></td>
+        <td bgcolor="#0d68a0"><strong>Direccion</strong></td>
+        <td bgcolor="#0d68a0"><strong>Correo</strong></td>
       </tr>';
 
         $consulta=$conexion->query("SELECT * FROM $tabla");

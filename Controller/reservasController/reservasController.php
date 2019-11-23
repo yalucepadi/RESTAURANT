@@ -123,7 +123,7 @@ class MvcController {
             </div>
             <div class="col-md-6"> 
              <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Fecha Reserva (1/10/2017):</label>
+              <label for="recipient-name" class="form-control-label">Fecha Reserva:</label>
               <input type="text" id="datepicker" class="form-control" id="recipient-name" name="diallegada" value="'.$respuesta['diallegada'].'">
             </div>
             </div>
@@ -131,7 +131,7 @@ class MvcController {
              <div class="row">
                 <div class="col-md-6"> 
              <div class="form-group">
-              <label for="recipient-name" class="form-control-label">Hora de Reserva (22:00):</label>
+              <label for="recipient-name" class="form-control-label">Hora de Reserva:</label>
               <input type="text" class="form-control" id="recipient-name" name="horallegada" value="'.$respuesta['horallegada'].'">
             </div>
             </div>
@@ -144,7 +144,7 @@ class MvcController {
         </div>
         </div>
         <input type="hidden" name="idreserva" value="'.$respuesta['idreserva'].'">
-          <button type="submit" class="btn btn-primary form-control" name="editar">Agregar Reserva</button>
+          <button type="submit" class="btn btn-success form-control" name="editar">Aceptar</button>
           </form>';
      
     }

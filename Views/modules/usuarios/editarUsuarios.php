@@ -21,17 +21,17 @@
 			    <input type="text" name="nombreusuario" class="form-control" id="formGroupExampleInput" value="<?php echo $value['nombreusuario'] ?>">
 			  </div>
 			  <div class="form-group">
-			    <label for="formGroupExampleInput2">Contraseña Usuario <span>(<i>Si no decea cambiar la contraseña deje el campo como está</i>)</span></label>
+			    <label for="formGroupExampleInput2">Contraseña Usuario <span>(<i>Si no desea cambiar la contraseña deje el campo como está</i>)</span></label>
 			    <input type="password" name="password" class="form-control" id="formGroupExampleInput2"value="<?php echo $value['password'] ?>">
 			  </div>
 		
-			<button type="submit" name="editarUsuario" class="btn btn-primary">Save changes</button>
+			<button type="submit" name="editarUsuario" class="btn btn-success">Guardar cambios</button>
            </form>
 	      <?php endforeach ?>
      </div>
 
         <div class="col-md-5">
-          <img src="assets/img/foto1.jpg" width="450" height="250">
+          <img src="assets/img/foto6.jpg" width="450" height="250">
         </div>
   </div>
         <br>

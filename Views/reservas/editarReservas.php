@@ -5,7 +5,7 @@
  <a href="reservas"><i class="fa fa-edit"> Volver</i></a>
   </div>
   <div class="card-block">
-    <h4 class="card-title">Editar Reservas</h4>
+    <h4 class="card-title">Editar reserva</h4>
     <p class="card-text">
     <?php 
       $editar = new MvcController();
